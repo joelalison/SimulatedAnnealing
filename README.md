@@ -17,7 +17,7 @@ Os parâmetros do algoritmo foram escolhidos por tentativa e erro:
 
 A função objetivo é encontrar o mínimo da função de Rosenbrock definida por:
 
-![first equation] (https://latex.codecogs.com/gif.latex?f%28x%2C%20y%29%20%3D%20%281%20-%20x%29%5E2%20&plus;%20100%20%5Ccdot%20%28y%20-%20x%5E2%29%5E2)
+$ f(x, y) = (1 - x)^2 + 100 \cdot (y - x^2)^2 $
 
 # Discussão
 
