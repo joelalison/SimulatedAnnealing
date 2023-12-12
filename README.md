@@ -8,6 +8,8 @@ Implementar o pseudo-código referente ao algoritmo do Simulated Annealing da au
 
 Foi criado um algoritmo do Simulated Annealing e um script chamado main_SimulatedAnealing para testar a função criada. Além disso foi criado um script para verificar o ponto de mínimo da função de Rosenbrock utilizando cálculo numérico de Quasi-Newton.
 
+---
+
 # Função Simulated Annealing
 
 Os parâmetros do algoritmo foram escolhidos por tentativa e erro:
@@ -18,6 +20,8 @@ Os parâmetros do algoritmo foram escolhidos por tentativa e erro:
 A função objetivo é encontrar o mínimo da função de Rosenbrock definida por:
 
 $` f(x, y) = (1 - x)^2 + 100 \cdot (y - x^2)^2 `$
+
+---
 
 # Discussão
 
