@@ -22,6 +22,8 @@ function simulatedAnealing(varargin)
             SolucaoAtual = SolucaoVizinha;
             CustoAtual = ValorSolucaoVizinha;
         end
+        solucoes(iter) = CustoAtual;
+        solucoesvizinhas(iter) = ValorSolucaoVizinha;
         
         % Reduz a temperatura
         temperature = temperature * TaxaDeResfriamento;
@@ -31,5 +33,13 @@ function simulatedAnealing(varargin)
     disp('Solução encontrada pelo Simulated Annealing:');
     disp(['X: ', num2str(SolucaoAtual(1))]);
     disp(['Y: ', num2str(SolucaoAtual(2))]);
-    disp(['Valor da Função de Rosenbrock: ', num2str(CustoAtual)]);
+    loglog(solucoes,'b','linewidth',2.5)
+    hold on
+    loglog(solucoesvizinhas,'r')
+    grid on
+    grid minor
+    xlabel('Iterações')
+    title('Evolucao da solucao')
+    legend('solucão principal','solução vizinha')
+    axis([1 Iteracoes 10^(-5) 10^6])
 end
