@@ -1,6 +1,10 @@
 # Problema
 
-Implementar o pseudo-código referente ao algoritmo do Simulated Annealing da aula 3 e rodar o código minimizando a função de Rosenbrock:
+Implementar o pseudo-código referente ao algoritmo do Simulated Annealing da aula 3 e rodar o código minimizando a função de Rosenbrock.
+
+<p align="center">
+    <img src="imagens/RosenBr.png" alt="Acrescentando números ao problema" width="800">
+</p>
 
 ---
 
