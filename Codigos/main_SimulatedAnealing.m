@@ -1,4 +1,6 @@
 clear,clc,close all
+
+addpath('utils')
 % Função de Rosenbrock
 rosenbrock = @(x, y) (1 - x).^2 + 100 * (y - x.^2).^2;
 
