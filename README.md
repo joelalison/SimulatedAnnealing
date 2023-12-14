@@ -19,7 +19,11 @@ Os parâmetros do algoritmo foram escolhidos por tentativa e erro:
 
 A função objetivo é encontrar o mínimo da função de Rosenbrock definida por:
 
-$` f(x, y) = (1 - x)^2 + 100 \cdot (y - x^2)^2 `$
+$`  `$
+
+$$
+f\left (x,y  \right ) = \left ( 1 - x \right )^2 + 100 \cdot \left ( y - x^2 \right )^2
+$$
 
 ---
 
